@@ -1,7 +1,8 @@
-heroku setup: https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
-https://github.com/mongolab/hello-mongoose/blob/master/app.js
+# Heroku setup with mongo, express, and angular
+
+### Heroku
 steps:
-1. download toolbelt (which heorku to see if you have it)
+1. download toolbelt (which heroku to see if you have it)
 2. login (heroku login)
 3. Make sure you have git, node, and npm
 
@@ -37,4 +38,7 @@ npm install --save mongoose
 `
 
 
-
+### References
+heroku setup: https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
+https://github.com/mongolab/hello-mongoose/blob/master/app.js
+https://devcenter.heroku.com/articles/mean-apps-restful-api
