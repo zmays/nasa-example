@@ -1,0 +1,26 @@
+{
+  "name": "Nasa",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Zach Mays"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AngularJS": "angular-latest#^1.5.3",
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.3",
+    "angular-resource": "^1.5.3",
+    "ng-lodash": "^0.4.0"
+  }
+}

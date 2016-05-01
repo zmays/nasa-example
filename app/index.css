@@ -1,0 +1,34 @@
+body {
+  padding-top: 70px;
+}
+
+.scalar-values {
+  margin-bottom: 20px;
+}
+
+.scalar-label {
+  display: inline-block;
+  min-width: 100%;
+  font-size: 14px;
+}
+
+.progress {
+  min-width: 350px;
+}
+
+.progress-bar {
+  min-width: 30px;
+}
+
+table.overview tr td {
+  padding: 2px;
+}
+
+table.overview div.progress {
+  margin-bottom: 5px;
+  min-width: 0px;
+}
+
+td.increased {
+  font-weight: bold;
+}

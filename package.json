@@ -1,0 +1,19 @@
+{
+  "name": "Nasa",
+  "version": "1.0.0",
+  "description": "Nasa resources and routing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Mays",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "bower": "^1.7.9"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

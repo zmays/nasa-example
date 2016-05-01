@@ -1,0 +1,4 @@
+angular
+  .module('rovers', [
+    'nasaApi'
+])
