@@ -4,21 +4,23 @@ angular
 
 roversController.$inject = [
   'roverResource',
+  'apiResource',
   'lodash',
   '$log',
 ]
 
 function roversController(
     roverResource,
+    apiResource,
     _,
     $log
 ) {
 
   vm = this
 
-  vm.rovers = roverResource.get({},
-      function(response) { $log.debug('successful rover query', response) },
-      function(response) { $log.debug('failed rover query', response) }
+  apiResource.query({},
+      function(response) { $log.debug('successful api query', response) },
+      function(response) { $log.debug('failed api query', response) }
       )
 
 }

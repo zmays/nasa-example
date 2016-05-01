@@ -1,4 +1,5 @@
 angular
   .module('rovers', [
-    'nasaApi'
+    'nasaApi',
+    'api'
 ])
